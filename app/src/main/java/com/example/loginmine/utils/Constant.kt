@@ -1,4 +1,9 @@
 package com.example.loginmine.utils
 
-class Constant {
+class Constant{
+    enum class Status {
+        PENDING,
+        RUNNING,
+        FINISHED
+    }
 }

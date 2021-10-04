@@ -102,7 +102,10 @@
             android:enabled="@{viewmodel.btnSelected}"
             android:onClick="@{()->viewmodel.onLogin(user)}"
             android:text="@string/login" />
-
+        <com.nhn.android.naverlogin.ui.view.OAuthLoginButton
+            android:id="@+id/buttonNaverLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
 
     </LinearLayout>
 
