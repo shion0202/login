@@ -19,5 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:text="@{userInfo.userName}"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
